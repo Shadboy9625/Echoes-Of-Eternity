@@ -1,10 +1,7 @@
 # Gush
 
-**Gush** is a dungeon brawler game built with [Kaboom.js](https://kaboomjs.com/) on [Replit.com](https://replit.com/) for a [1729.com](https://1729.com/) [contest](https://1729.com/replit-kaboom).
-
-You can [play it](https://replit.com/@aMoniker/Gush?v=1) on Replit, or fork the code and make your own version.
-
 ## Features
+
 - Seven playable characters with unique weapons
 - More than a dozen enemy types
 - More than a dozen levels, large and small
@@ -15,17 +12,18 @@ You can [play it](https://replit.com/@aMoniker/Gush?v=1) on Replit, or fork the 
 - Chests may have coins, flasks, nothing, or something else...
 
 ## How to play
+
 Use a gamepad controller for the best experience.
 
 Or, use keyboard & mouse, or keyboard alone.
 
 Some characters can shoot: aim with right analog stick or mouse.
 
-- *Gamepad:* Left analog stick to move, bottom button to attack, right side button to burp.
-- *Keyboard & mouse:* WASD (or arrows) to move, SPACE to attack (or left click), B to burp (or right click).
+- _Gamepad:_ Left analog stick to move, bottom button to attack, right side button to burp.
+- _Keyboard & mouse:_ WASD (or arrows) to move, SPACE to attack (or left click), B to burp (or right click).
 
 ## Tools used
-- [Replit.com](https://replit.com/)
+
 - [Kaboom.js v0.6.0](https://kaboomjs.com/)
 - [Stitches (spritesheet generator)](https://draeton.github.io/stitches/)
 - [Aseprite](https://www.aseprite.org/)
@@ -34,6 +32,7 @@ Some characters can shoot: aim with right analog stick or mouse.
 - And of course, Google & Stack Overflow
 
 ## Graphics
+
 - [Dungeon Tileset 2](https://0x72.itch.io/dungeontileset-ii)
 - [Blood FX](https://jasontomlee.itch.io/blood-fx)
 - [Assets Free Laser Bullets Pack 2020](https://wenrexa.itch.io/laser2020)
@@ -45,6 +44,7 @@ Some characters can shoot: aim with right analog stick or mouse.
 - [Free Pixel Effects Pack #13 - Fireballs](https://xyezawr.itch.io/free-pixel-effects-pack-13-fireballs)
 
 ## Sound & Music
+
 - [Shapeforms Audio Free Sounds](https://shapeforms.itch.io/shapeforms-audio-free-sfx)
 - [Hypercasual Music Pack 1](https://www.void1gaming.com/hypercasual-music-pack-1)
 - [Hypercasual Music Pack 4](https://www.void1gaming.com/hypercasual-music-pack-4)
@@ -54,12 +54,13 @@ Some characters can shoot: aim with right analog stick or mouse.
 ## Feature Tracker
 
 ### Essential features
+
 - [x] Red flask restores hp of course
 - [x] HP is always in increments of 1, each 1 represents half a heart
 - [x] Blue flask gives a shield on top of HP
 - [x] Green flask gives charges of Power Belch, burp kills enemies around player, small one charge, large 3 charges
 - [x] Chests can contain flasks or coins
- - [x] Show coin count on UI
+- [x] Show coin count on UI
 - [x] Multiple characters with different health & weapons
   - [x] Coins can be collected through multiple game runs to unlock more characters
 - [x] Current level can be reset when player dies.
@@ -88,6 +89,7 @@ Some characters can shoot: aim with right analog stick or mouse.
   - [x] golden flask treasure room for end game (with some announce flavor text, congrats etc)
 
 #### Character classes:
+
 - [x] Swordy Boi - starting char, all other are unlocks. decent sword, decent hp
 - [x] Shootie Pie - decent bow, decent hp
 - [x] Pokey Elf - killer spear, dash attack in one direction, mediocre hp
@@ -97,6 +99,7 @@ Some characters can shoot: aim with right analog stick or mouse.
 - [x] LAZER WIZARD - laser attack fires through enemies, good dmg, low hp
 
 #### Monster AI
+
 - [x] Basic monster movement AI
 - [x] Necromancers raise armies of 1 hit skeletons
 - [x] Orc Shaman can heal their friends
@@ -104,6 +107,7 @@ Some characters can shoot: aim with right analog stick or mouse.
 - [x] Demons cast fireballs at you
 
 ### Nice to have
+
 - [x] Scooty Poke leaps backwards if he ends overlapping an enemy
 - [x] save health/shields/burps between levels (except on boss - empty burps)
 - [x] Meat Cleaverang for Lizzy
